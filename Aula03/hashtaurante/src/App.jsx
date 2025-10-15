@@ -1,17 +1,13 @@
-import React from 'react';
 import "./App.css";
-import imgRestaurant from "./assets/hashtaurante.webp";
 import Categorias from './components/Categorias';
 import Cards from './components/Cards';
+import Banner from "./components/Banner";
 
 
 function App() {
   return (
     <div className="container">
-      <div className='banner'>
-        <img src={imgRestaurant} alt="banner-restaurante"/>
-      </div>
-
+      <Banner/>
       <Categorias/>
       <Cards/>
       
