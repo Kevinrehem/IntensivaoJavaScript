@@ -70,11 +70,11 @@ button {
   display: none;
 }
 
-.tocando .play {
+.paused .play {
   display: none;
 }
 
-.tocando .pause {
+.paused .pause {
   display: block;
 }
 
