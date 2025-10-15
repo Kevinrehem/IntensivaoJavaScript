@@ -1,15 +1,15 @@
 
 
-const Card = (props) => {
+const Card = ({titulo, descricao, preco, imagem}) => {
   return (
     <div className="card">
         <div className="card__textos">
-            <h2 className="card__titulo">{props.titulo}</h2>
-            <p>{props.descricao}</p>
-            <p className="card__preco">{props.preco}</p>
+            <h2 className="card__titulo">{titulo}</h2>
+            <p>{descricao}</p>
+            <p className="card__preco">{preco}</p>
         </div>
         <div className="card__img">
-            <img src={props.imagem} alt="" />
+            <img src={imagem} alt="" />
         </div>
     </div>
   )
