@@ -2,7 +2,7 @@ import React from 'react';
 import "./App.css";
 import imgRestaurant from "./assets/hashtaurante.webp";
 import Categorias from './components/Categorias';
-import Card from './components/Card';
+import Cards from './components/Cards';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       </div>
 
       <Categorias/>
-      <Card/>
+      <Cards/>
       
     </div>
   );
